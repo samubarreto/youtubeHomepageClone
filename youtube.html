@@ -1,0 +1,314 @@
+<!-- tenho q fz a troca das divs pelos nomes mais específicos !-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube Samu</title>
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="source/hamburger-menu.svg">
+        <img class="youtube-logo" src="source/youtube-logo.svg">
+      </div>
+
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-icon-button">
+          <img style="height:24px; margin-top: 1px" src="source/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-icon-button">
+          <img style="height:24px; margin-top: 4px" src="source/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <div class="upload-container">
+          <img src="source/upload.svg" style="height:24px; cursor: pointer;">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="apps-container">
+          <img src="source/youtube-apps.svg" style="height:24px; cursor: pointer;">
+          <div class="tooltip">YouTube Apps</div>
+        </div>
+        <div class="notifications-container">
+          <div class="notifications-icon-container">
+            <img src="source/notifications.svg" style="height:24px;">
+            <div class="notifications-count">3</div>
+          </div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img src="source/my-channel.jpeg" style="height:32px; border:none; border-radius:16px; cursor: pointer;">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="source/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="source/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="source/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="source/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="source/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="source/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=UJcsI2q1Q_k">
+              <img class="thumbnail" style="background-color: transparent;" class="yt-core-image--fill-parent-height yt-core-image--fill-parent-width yt-core-image yt-core-image--content-mode-scale-aspect-fill yt-core-image--loaded" src="https://i.ytimg.com/vi/UJcsI2q1Q_k/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&U+0026amp;rs=AOn4CLCrnsUiV4dDNCIOF8FhMwyfxxTzDg">
+              <div class="video-time">8:46</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="https://yt3.ggpht.com/5wO5oLbzPyOIE35d0LumeT7gLOstBViZPZmZ3qZh9bkv8weEOwwJvDvvo-d6YsjqizRC0GeDkQ=s68-c-k-c0x00ffffff-no-rj">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                I remade Hollow Knight as a 3D Game!
+              </p>
+              <p class="video-author">
+                Poly Knight
+              </p>
+              <p class="video-stats">
+                344K views &#183; 9 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=SBmSRK3feww">
+              <img class="thumbnail" src="https://i.ytimg.com/vi/SBmSRK3feww/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDZeqYqdumOh8REwEanD8B3kMtJbA">
+              <div class="video-time">11:57:22</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="https://yt3.ggpht.com/ytc/AOPolaRu3zcJ4_fybe-8GJUmrGzc2S6xYsxw0HgMnfnI=s68-c-k-c0x00ffffff-no-rj">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                JavaScript Full Course (2023) - Beginner to Pro - Part 1
+              </p>
+              <p class="video-author">
+                SuperSimpleDev
+              </p>
+              <p class="video-stats">
+                1,9M views &#183; 5 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=ibf5cx221hk">
+              <img class="thumbnail" src="https://i.ytimg.com/vi/ibf5cx221hk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBMEeLO1f8xR-DPHfTpHXZ72GO-Zw">
+              <div class="video-time">38:59</div>
+            </a>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="https://yt3.ggpht.com/mUAVlzjzD4g581jDzS5Hkn6dnuFz1BeCZMQVomvZDiKN2o6MpdO4DbFq88k1coYjOHDmdypH5Q=s68-c-k-c0x00ffffff-no-rj">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Tkinter Beginner Course - Python GUI Development
+              </p>
+              <p class="video-author">
+                NeuralNine
+              </p>
+              <p class="video-stats">
+                255K views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+      
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a href="https://www.youtube.com/watch?v=8AMNaVt0z_M">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/8AMNaVt0z_M/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBk4zl1EecyJcy5YXYe58SSsz3FjQ">
+                <div class="video-time">32:35</div>
+              </a>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/-kPp7Q9HemvXXn4yK8wbH9KFAvNeUTD6cCh1kmJRFE7GLtpdzIDhegtEfhcpa10xUyeKZUATvg=s68-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  Como Fazer uma Automação Web Utilizando o Python e o Selenium
+                </p>
+                <p class="video-author">
+                  Hashtag Programação
+                </p>
+                <p class="video-stats">
+                  90K views &#183; 1 year ago
+                </p>
+              </div>
+            </div>
+          </div>
+      
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a href="https://www.youtube.com/watch?v=CZim0p_etvM">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/CZim0p_etvM/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBhAiAAtAFigIMCAAQARgcIEMofzAP&rs=AOn4CLAKwP5LB5Yg8br_OKniuiIcNs9vAg">
+                <div class="video-time">1:16:39</div>
+              </a>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/ytc/AOPolaQXv6HlWKYtr0-z_AMoZbW7NRn_zwIIcHc1dG_U=s68-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  Best of Antent | Electronic, Ambient, Synthwave, Chill Playlist
+                </p>
+                <p class="video-author">
+                  BLUME
+                </p>
+                <p class="video-stats">
+                  301K views &#183; 3 months ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a href="https://www.youtube.com/watch?v=EVue37170T8">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/EVue37170T8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDaLcSZcuZUbGDZdCrdPBl_1ofTjQ">
+                <div class="video-time">23:44</div>
+              </a>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/sqd29Za-ALVl9Dv7E01Jo54jDwnsp89zU8D80exJL6-T6qdQkchWazkVpOlyt47b4fZ0mpXp8A=s68-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  MANO REAGE: setup do Linus Torvalds
+                </p>
+                <p class="video-author">
+                  mano deyvin
+                </p>
+                <p class="video-stats">
+                  63K views &#183; 3 months ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/QU1pPzEGrqw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBHfoG_7PRkAwuHMK150lKhoirAoQ">
+                <div class="video-time">7:38:56</div>
+              </a>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/Wj9_npdrzYf5kxqLqfSLukT8iED0lR5r-lQ7giM3vXahULQYdm7cUtHstltUDLadmf9EyEANMA=s68-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  Creating a Zelda style game in Python [with some Dark Souls elements]
+                </p>
+                <p class="video-author">
+                  Clear Code
+                </p>
+                <p class="video-stats">
+                  2,1M views &#183; 1 year ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/G3e-cpL7ofc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCeCRIPYMkDqa-58AscpsxUVLUc4w">
+                <div class="video-time">6:31:24</div>
+              </a>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/ytc/AOPolaRu3zcJ4_fybe-8GJUmrGzc2S6xYsxw0HgMnfnI=s68-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  HTML & CSS Full Course - Beginner to Pro
+                </p>
+                <p class="video-author">
+                  SuperSimpleDev
+                </p>
+                <p class="video-stats">
+                  6,3M views &#183; 1 year ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc">
+                <img class="thumbnail" src="https://i.ytimg.com/vi/p1QU3kLFPdg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCnxuRiVlwwfIWUI0t-nSFxwCq7Rg">
+                <div class="video-time">6:31:24</div>
+              </a>
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/ytc/AOPolaRu3zcJ4_fybe-8GJUmrGzc2S6xYsxw0HgMnfnI=s68-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  How to put an HTML website online (on the Internet)
+                </p>
+                <p class="video-author">
+                  SuperSimpleDev
+                </p>
+                <p class="video-stats">
+                  854K views &#183; 1 year ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+      </section>
+    </main>
+  </body>
+</html>
