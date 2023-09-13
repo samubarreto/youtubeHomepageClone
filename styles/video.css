@@ -54,7 +54,7 @@
 }
 
 @media (min-width: 751px) and (max-width: 999px) {
-  .vide-grid {
+  .video-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
