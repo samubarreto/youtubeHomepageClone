@@ -1,5 +1,5 @@
 # youtubeHomepageClone
-* YouTube home page clone made with Html and CSS. (Clone da página inicial do YouTube feito com Html e CSS.)
+* YouTube home page clone made with HTML and CSS. (Clone da página inicial do YouTube feito com Html e CSS.)
 
 # Advice
 * The page view on mobile devices does not work correctly, please open it on a desktop device. (A visualização da página em dispositivos móveis não funciona corretamente, abram em um dispositivo desktop, por gentileza)
