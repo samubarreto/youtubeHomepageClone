@@ -6,4 +6,4 @@
 
 # Preview
 > [Click here to see the preview on your web browser](https://sampbrt.github.io/youtubeHomepageClone/)
-> ![image](https://github.com/sampbrt/youtubeHomepageClone/assets/70921394/f6fe8816-c106-48b5-bfb5-8e3f1625f750)
+> ![image](https://github.com/sampbrt/youtubeHomepageClone/assets/70921394/4f13249a-f9c7-4161-b881-581880f22371)
