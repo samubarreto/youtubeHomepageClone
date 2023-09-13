@@ -55,7 +55,7 @@
 }
 
 .right-section {
-    width: 182px;
+    width: 320px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -131,18 +131,27 @@
 .voice-icon-button,
 .upload-container,
 .apps-container,
-.notifications-container {
+.notifications-container,
+.ref-container {
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
 
+.ref-container {
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .search-icon-button .tooltip,
 .voice-icon-button .tooltip,
 .upload-container .tooltip,
 .apps-container .tooltip,
-.notifications-container .tooltip {
+.notifications-container .tooltip,
+.ref-container .tooltip {
     position: absolute;
     background-color: gray;
     color: white;
@@ -160,6 +169,15 @@
 .voice-icon-button:hover .tooltip,
 .upload-container:hover .tooltip,
 .apps-container:hover .tooltip,
-.notifications-container:hover .tooltip {
+.notifications-container:hover .tooltip,
+.ref-container:hover .tooltip {
     opacity: 1;
+}
+
+.github-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 15px;
 }
